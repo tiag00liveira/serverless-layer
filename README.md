@@ -1,2 +1,0 @@
-# teste
-Diretorio teste

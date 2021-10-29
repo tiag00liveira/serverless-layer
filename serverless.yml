@@ -1,0 +1,13 @@
+service: serverless-layer
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: python3.8
+  profile: developer
+  stage: developer
+layers:
+  layerTest:
+    package:
+      artifact: layer-test.zip
